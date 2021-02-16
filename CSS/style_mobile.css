@@ -1,0 +1,69 @@
+/* header */
+
+.header nav h1 {
+    float: none;
+    text-align: center;
+}
+
+.header nav ul {
+    float: none;
+  }
+  
+  .header nav ul li {
+    float: none;
+  }
+
+  .header nav ul li a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* vp */
+
+  .vp-content h2 {
+	font-size: 2rem;
+}
+
+/* features */
+
+.feature{
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  /* reservation */
+
+.reservation{
+  padding: 50px 20px;
+}
+
+/* where */
+
+.where{
+  padding: 60px 20px;
+}
+
+.map{
+  display: block;
+  float: none;
+  width: 80%;
+  border: 0;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.map-txt{
+  float: none;
+  width: 100%;
+}
+
+/* contact */
+
+.contact{
+  padding: 50px 0;
+}
+
+.contact-form-container{
+  max-width: 70%;
+}
