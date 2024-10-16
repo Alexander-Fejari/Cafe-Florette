@@ -1,0 +1,262 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.separator {
+  margin: 20px auto;
+  width: 100px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #111;
+}
+
+.btn{
+	display: inline-block;
+  padding: 15px 25px;
+  border: 0px;
+	border-radius: 30px;
+	font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-light{
+	background-color: white;
+	color: #222;
+}
+
+.btn-dark{
+  background-color: #222;
+  color: white;
+}
+
+.btn-light:hover{
+	background-color: #222;
+	color: white;
+}
+
+.btn-dark:hover{
+	background-color: white;
+  color: #222;
+  border: #222 1px solid;
+}
+
+.my-10{
+	margin: 10px 0;
+}
+
+.my-20{
+	margin: 20px 0;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.underline{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip{
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #222;
+  color: white;
+}
+
+.chip-purple{
+  background: #be418c;
+}
+
+.chip-brown{
+  background: #8c5e24;
+}
+
+/* header */
+
+.header {
+  background: black;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav h1 a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+
+.header nav ul li {
+  float: left;
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.header nav ul li a:hover,
+.active {
+  background: #444;
+}
+
+/* vp section */
+
+.vp {
+  min-height: 90%;
+  background: url(../images/cafe1.jpg) center center;
+  background-size: cover;
+}
+
+.vp-content {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 120px;
+  color: white;
+  text-align: center;
+}
+
+.vp-content h2 {
+	font-size: 3rem;
+}
+
+.vp-content p {
+	font-size: 18px;
+	line-height: 1.9em;
+	letter-spacing: 0.3px;
+}
+
+/* features */
+
+.features{
+  overflow: auto;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.feature{
+  float: left;
+  width: 50%;
+}
+
+/* person */
+
+.person{
+  height: 100vh;
+  background: url(../images/cafe3.jpg) center center/cover;
+}
+
+/* reservation */
+
+.reservation{
+  height: 50%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* footer */
+
+footer{
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* where */
+
+.where{
+  min-height: 80%;
+  padding: 128px 0;
+  overflow: auto;
+}
+
+.map{
+  float: left;
+  width: 45%;
+  border: #ddd solid 1px;
+  border-radius: 5px;
+}
+
+.map-txt{
+  float: right;
+  width: 50%;
+}
+
+/* contact */
+
+.contact{
+  height: 100%;
+  padding: 100px 0;
+  overflow: auto;
+}
+
+.contact-form-container{
+  max-width: 50%;
+  margin: auto;
+}
+
+.contact-form-container form label{
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form-container form input, textarea{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
